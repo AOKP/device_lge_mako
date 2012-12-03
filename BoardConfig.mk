@@ -91,4 +91,6 @@ TARGET_NO_RPC := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
+BOARD_HAVE_LOW_LATENCY_AUDIO := true
+
 -include vendor/lge/mako/BoardConfigVendor.mk
