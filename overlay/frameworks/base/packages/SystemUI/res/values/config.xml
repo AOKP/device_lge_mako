@@ -27,5 +27,9 @@
 
     <!-- Vibration duration for MultiWaveView used in SearchPanelView -->
     <integer translatable="false" name="config_search_panel_view_vibration_duration">7</integer>
+
+    <!-- empty string to disable, or like: /sys/kernel/fast_charge
+         it is disabled by default so devices need to add an overlay to enable-->
+    <string name="config_fastChargePath" translatable="false">/sys/module/msm_otg/parameters/fast_charge</string>
 </resources>
 
