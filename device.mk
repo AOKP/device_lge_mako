@@ -252,7 +252,15 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Charging LED property
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.enable-charging-led=0
+	persist.sys.enable-charging-led=0
+
+# hardware
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.device.cpu=1.5GHz Krait Qualcomm Snapdragon S4 Pro APQ8064
+	ro.device.gpu=Adreno 320
+	ro.device.rear_cam=8 MP
+	ro.device.front_cam=1.3 MP
+	ro.device.screen_res=768x1280
 
 # for bugmailer
 PRODUCT_PACKAGES += send_bug
