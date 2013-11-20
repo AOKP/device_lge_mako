@@ -155,9 +155,7 @@
 /system/lib/libsensor_reg.so
 /system/lib/libsensor_user_cal.so
 /system/lib/libstagefright_hdcp.so
-/system/lib/libWVphoneAPI.so
 /system/lib/libxml.so
-/system/lib/soundfx/libfmas.so
 /system/vendor/firmware/a300_pfp.fw
 /system/vendor/firmware/a300_pm4.fw
 /system/vendor/firmware/bcm2079x_firmware.ncd
@@ -173,11 +171,6 @@
 /system/vendor/firmware/keymaster/keymaster.b03
 /system/vendor/firmware/keymaster/keymaster.mdt
 /system/vendor/lib/libdrmdecrypt.so
-/system/vendor/lib/libWVStreamControlAPI_L1.so
-/system/vendor/lib/libwvm.so
-/system/vendor/lib/libwvdrm_L1.so
-/system/vendor/lib/drm/libdrmwvmplugin.so
-/system/vendor/lib/mediadrm/libwvdrmengine.so
 /system/vendor/lib/libgeofence.so
 /system/vendor/lib/libizat_core.so
 /system/vendor/lib/libloc_api_v02.so
