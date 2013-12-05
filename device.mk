@@ -268,6 +268,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
+# don't use /cache/dalvik-cache for now 
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dexopt-data-only=1
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # This is the mako-specific audio package
