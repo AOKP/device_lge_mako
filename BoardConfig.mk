@@ -34,6 +34,9 @@ TARGET_KRAIT_BIONIC_BBTHRESH := 64
 TARGET_KRAIT_BIONIC_PLDSIZE := 64
 TARGET_MPDECISION_BOOST_SOCKET := /dev/socket/mpdecision/touchboost
 
+# Enable various prefetch optimizations
+COMMON_GLOBAL_CFLAGS += -D__ARM_USE_PLD -D__ARM_CACHE_LINE_SIZE=64
+
 # Compiler Optimization
 ARCH_ARM_HIGH_OPTIMIZATION := true
 
