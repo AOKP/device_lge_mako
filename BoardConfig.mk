@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Integrated Kernel
+TARGET_KERNEL_SOURCE := /kernel/lge/mako
+
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
