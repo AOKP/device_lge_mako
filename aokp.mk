@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_mini_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
