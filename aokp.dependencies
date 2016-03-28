@@ -1,7 +1,0 @@
-[
- {
-   "repository": "kernel_lge_mako",
-   "target_path": "kernel/lge/mako",
-   "revision": "mm"
- }
-]
